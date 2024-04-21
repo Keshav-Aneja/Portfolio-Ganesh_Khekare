@@ -5,10 +5,10 @@ const WorkshopsAttended = () => {
     <>
       <ul className="publication-details w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
         <li>
-          Attended three days FDP on ‘Recent Trends in Artificial Intelligence
-          and Machine Learning" organized by Academic Staff College in
-          association with School of Computer Science and Engineering of VIT
-          Vellore. (12th September to 14th September 2023)
+          Attended three days FDP on &ldquo;Recent Trends in Artificial
+          Intelligence and Machine Learning&ldquo; organized by Academic Staff
+          College in association with School of Computer Science and Engineering
+          of VIT Vellore. (12th September to 14th September 2023)
         </li>
         <li>
           Attended 18 days FDP on Faculty Orientation Program organized by
@@ -165,7 +165,7 @@ const WorkshopsAttended = () => {
         </li>
         <li>
           One day Workshop on eSim, a First Course in the IoT Series for
-          Teachers' held at G H Raisoni College of Engineering organized by the
+          Teachers held at G H Raisoni College of Engineering organized by the
           Teaching Learning Centre ICT at<strong> IIT Bombay</strong>, funded by
           <strong>MHRD</strong>, Govt. of India on 21 September 2019.
         </li>
@@ -254,8 +254,9 @@ const WorkshopsAttended = () => {
           Education through ICT (MHRD).
         </li>
         <li>
-          Attended One Day Workshop on "System Designing & modeling FPGA" GHRCE
-          under <strong>IEEE </strong>student chapter. (06 August 2011).
+          Attended One Day Workshop on &ldquo;System Designing & modeling
+          FPGA&ldquo; GHRCE under <strong>IEEE </strong>student chapter. (06
+          August 2011).
         </li>
         <li>
           Attended 3 days’ workshop “Faculty Development Programme” in JIT,

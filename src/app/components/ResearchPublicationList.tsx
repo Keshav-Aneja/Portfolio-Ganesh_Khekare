@@ -4,27 +4,29 @@ const ResearchPublicationList = () => {
   return (
     <ul className="publication-details w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
       <li>
-        Khekare, Ganesh, and Midhunchakkravarthy. "Machine Learning Techniques
-        for the Classification and Detection of Brain Tumors in MRI Images."
-        International Journal of Intelligent Systems and Applications in
-        Engineering 12.1 (2024): 528-535. <strong>(Q3 Scopus Indexed)</strong>
+        Khekare, Ganesh, and Midhunchakkravarthy. &ldquo;Machine Learning
+        Techniques for the Classification and Detection of Brain Tumors in MRI
+        Images.&ldquo; International Journal of Intelligent Systems and
+        Applications in Engineering 12.1 (2024): 528-535.{" "}
+        <strong>(Q3 Scopus Indexed)</strong>
       </li>
       <li>
-        Dr. Ganesh Khekare, Dr. Indrasen Singh, "Enhancing Wireless Sensor
+        Dr. Ganesh Khekare, Dr. Indrasen Singh, &ldquo;Enhancing Wireless Sensor
         Network Security: A Hybrid Intrusion Detection System for Cluster-Based
-        Architectures", Kindle Direct Publishing, ISBN No. 979-8321569368, 16th
-        March 2024. <strong>(Book)</strong>
+        Architectures&ldquo;, Kindle Direct Publishing, ISBN No. 979-8321569368,
+        16th March 2024. <strong>(Book)</strong>
       </li>
       <li>
-        Dr. Indrasen Singh, Dr. Ganesh Khekare, "Accessories and Passive
-        Restraint Systems in Automobiles," LAP LAMBERT Academic Publishing, ISBN
-        No. 978-620-6-18300-6, April 2024. <strong>(Book)</strong>
+        Dr. Indrasen Singh, Dr. Ganesh Khekare, &ldquo;Accessories and Passive
+        Restraint Systems in Automobiles,&ldquo; LAP LAMBERT Academic
+        Publishing, ISBN No. 978-620-6-18300-6, April 2024.{" "}
+        <strong>(Book)</strong>
       </li>
       <li>
-        G. Khekare and Midhunchakkravarthy, "Smart Image Recognition System for
-        The Visually Impaired People," IEEE 2023 International Conference on
-        Energy, Materials and Communication Engineering (ICEMCE), Madurai,
-        India, 2023, pp. 1-6, doi: 10.1109/ICEMCE57940.2023.10434130.
+        G. Khekare and Midhunchakkravarthy, &ldquo;Smart Image Recognition
+        System for The Visually Impaired People,&ldquo; IEEE 2023 International
+        Conference on Energy, Materials and Communication Engineering (ICEMCE),
+        Madurai, India, 2023, pp. 1-6, doi: 10.1109/ICEMCE57940.2023.10434130.
         <strong>(Scopus Indexed)</strong>
       </li>
       <li>
@@ -45,8 +47,9 @@ const ResearchPublicationList = () => {
       </li>
       <li>
         G. Khekare, S. Gambhir, I. S. Abdulrahman, C. M. S. Kumar and V.
-        Tripathi, "D2D Network: Implementation of Blockchain Based Equitable
-        Cognitive Resource Sharing System," 2023 3rd <strong>IEEE</strong>
+        Tripathi, &ldquo;D2D Network: Implementation of Blockchain Based
+        Equitable Cognitive Resource Sharing System,&ldquo; 2023 3rd{" "}
+        <strong>IEEE</strong>
         International Conference on Advance Computing and Innovative
         Technologies in Engineering (ICACITE), Greater Noida, India, 2023, pp.
         908-912, doi: 10.1109/ICACITE57410.2023.10182834.
@@ -106,7 +109,8 @@ const ResearchPublicationList = () => {
       </li>
       <li>
         V. Kalbande, G. Tikale, R. Agrawal, S. Sorte, L. Thakre and G. Khekare,
-        "Design and Implementation of Motion Sensing Security System,"
+        &ldquo;Design and Implementation of Motion Sensing Security
+        System,&ldquo;
         <strong>IEEE</strong> 3rd International Conference on Electronics and
         Sustainable Communication Systems (ICESC), Coimbatore, 2022, pp.
         612-517, ISBN:978-1-6654-7972-1. doi: 10.1109/ICESC54411.2022.9885628.
@@ -127,15 +131,15 @@ const ResearchPublicationList = () => {
       </li>
       <li>
         B. R. Sampangi Rami Reddy, G. Khekare, A. Kumar, R. Liyakat Khan, D.
-        Gangodkar and R. Jayanthi, "Double Phased Algorithm for Frequent Sub
-        Graph Mining with More Security," 2022 <strong>IEEE</strong>
+        Gangodkar and R. Jayanthi, &ldquo;Double Phased Algorithm for Frequent
+        Sub Graph Mining with More Security,&ldquo; 2022 <strong>IEEE</strong>
         International Interdisciplinary Humanitarian Conference for
         Sustainability (IIHC), Bengaluru, India, 2022, pp. 476-482, doi:
         10.1109/IIHC55949.2022.10060171. ISBN: 978-1-6654-5687-6.
       </li>
       <li>
-        A. Rane, B. Vidhale, P. H. Kale and G. Khekare, "Design of An IoT based
-        Smart Plant Monitoring System,"
+        A. Rane, B. Vidhale, P. H. Kale and G. Khekare, &ldquo;Design of An IoT
+        based Smart Plant Monitoring System,&ldquo;
         <strong>IEEE</strong>
         10th International Conference on Emerging Trends in Engineering and
         Technology - Signal and Information Processing (ICETET-SIP-22), Nagpur,
@@ -143,8 +147,9 @@ const ResearchPublicationList = () => {
         10.1109/ICETET-SIP-2254415.2022.9791690.
       </li>
       <li>
-        N. Sambhe, G. Yenurkar, S. Karale, L. Umate and G. Khekare, "Enhancing
-        Customer 360 With Better Service Management using Salesforce CRM," 2022
+        N. Sambhe, G. Yenurkar, S. Karale, L. Umate and G. Khekare,
+        &ldquo;Enhancing Customer 360 With Better Service Management using
+        Salesforce CRM,&ldquo; 2022
         <strong>IEEE</strong> International Conference on Emerging Trends in
         Engineering and Medical Sciences (ICETEMS), Nagpur, India, 2022, pp.
         130-134, doi: 10.1109/ICETEMS56252.2022.10093576. ISBN:
@@ -199,8 +204,8 @@ const ResearchPublicationList = () => {
       </li>
       <li>
         Khekare, Ganesh and Pushpneel Verma, Urvashi Dhanre, Seema Raut, and
-        Ganesh Yenurkar. "Analysis of Internet of Things Based on
-        Characteristics, Functionalities, and Challenges,"
+        Ganesh Yenurkar. &ldquo;Analysis of Internet of Things Based on
+        Characteristics, Functionalities, and Challenges,&ldquo;
         <strong> IGI Global</strong>
         International Journal of Hyperconnectivity and the Internet of Things
         (IJHIoT), ISSN: 2473-4365, 5(1), pp. 44-62 accessed (January 22, 2021),
@@ -208,8 +213,8 @@ const ResearchPublicationList = () => {
       </li>
       <li>
         Khekare, Ganesh and Pushpneel Verma, Urvashi Dhanre, Seema Raut, and
-        Shahrukh Sheikh. "The Optimal Path Finding Algorithm Based on
-        Reinforcement Learning,"<strong> IGI Global</strong> International
+        Shahrukh Sheikh. &ldquo;The Optimal Path Finding Algorithm Based on
+        Reinforcement Learning,&ldquo;<strong> IGI Global</strong> International
         Journal of Software Science and Computational Intelligence (IJSSCI),
         ISSN: 1942-9045, 12(4), pp. 1-18., accessed (January 22, 2021),
         doi:10.4018/IJSSCI.2020100101.
@@ -243,8 +248,8 @@ const ResearchPublicationList = () => {
         <strong>(Scopus + Impact Factor 0.90)</strong>
       </li>
       <li>
-        G. Khekare and P. Verma, "Design of Automatic Key Finder for Search
-        Engine Optimization in Internet of Everything," 2020
+        G. Khekare and P. Verma, &ldquo;Design of Automatic Key Finder for
+        Search Engine Optimization in Internet of Everything,&ldquo; 2020
         <strong>IEEE </strong>1st International Conference for Convergence in
         Engineering (ICCE), Kolkata, India, 2020, pp. 464-468. Electronic
         ISBN:978-1-7281-7340-5. doi: 10.1109/ICCE50343.2020.9290669.
@@ -279,17 +284,18 @@ const ResearchPublicationList = () => {
       </li>
       <li>
         Ganesh S. Khekare, Urvashi T. Dhanre, Gaurav T. Dhanre, Sarika S. Yede,
-        "Design of Optimized and Innovative Remotely Operated Machine for Water
-        Surface Garbage Assortment", International Journal of Computer Sciences
-        and Engineering, ISSN: 2347-2693, Vol.7, Issue.1, pp.113-117, 2019. Doi:
+        &ldquo;Design of Optimized and Innovative Remotely Operated Machine for
+        Water Surface Garbage Assortment&ldquo;, International Journal of
+        Computer Sciences and Engineering, ISSN: 2347-2693, Vol.7, Issue.1,
+        pp.113-117, 2019. Doi:
         <a href="">https://doi.org/10.26438/ijcse/v7i1.113117</a>.
         <strong>(UGC Approved + Web of Science + Impact Factor 3.802)</strong>
       </li>
       <li>
-        S. P. Gohane and G. S. Khekare, "Reconfiguration of industrial embedded
-        system in WSN," 2015<strong> IEEE</strong>9th International Conference
-        on Intelligent Systems and Control (ISCO), Coimbatore, 2015, pp. 1-5,
-        Electronic ISBN:978-1-4799-6480-2. doi:
+        S. P. Gohane and G. S. Khekare, &ldquo;Reconfiguration of industrial
+        embedded system in WSN,&ldquo; 2015<strong> IEEE</strong>9th
+        International Conference on Intelligent Systems and Control (ISCO),
+        Coimbatore, 2015, pp. 1-5, Electronic ISBN:978-1-4799-6480-2. doi:
         <a href="">10.1109/ISCO.2015.7282284</a>.
         <strong>(Scopus + Web of Science)</strong>
       </li>
@@ -301,18 +307,18 @@ const ResearchPublicationList = () => {
         <strong> (Impact Factor 3.8)</strong>
       </li>
       <li>
-        G. S. Khekare, "Design of emergency system for intelligent traffic
-        system using VANET," IEEE International Conference on Information
+        G. S. Khekare, &ldquo;Design of emergency system for intelligent traffic
+        system using VANET,&ldquo; IEEE International Conference on Information
         Communication and Embedded Systems (ICICES2014), Chennai, 2014, pp. 1-7,
         Electronic ISBN:978-1-4799-3834-6. doi:
         <a href="">10.1109/ICICES.2014.7033910</a>.
         <strong>(Scopus + Web of Science)</strong>
       </li>
       <li>
-        G. S. Khekare and A. V. Sakhare, "A smart city framework for intelligent
-        traffic system using VANET," IEEE 2013 International Mutli-Conference on
-        Automation, Computing, Communication, Control and Compressed Sensing
-        (iMac4s), Kottayam, 2013, pp. 302-305, Electronic
+        G. S. Khekare and A. V. Sakhare, &ldquo;A smart city framework for
+        intelligent traffic system using VANET,&ldquo; IEEE 2013 International
+        Mutli-Conference on Automation, Computing, Communication, Control and
+        Compressed Sensing (iMac4s), Kottayam, 2013, pp. 302-305, Electronic
         ISBN:978-1-4673-5090-7. doi: <a href="">10.1109/iMac4s.2013.6526427</a>.
         <strong>(Scopus + Web of Science)</strong>
       </li>
