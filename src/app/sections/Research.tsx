@@ -8,7 +8,7 @@ const Research = () => {
   return (
     <div className="w-full h-full font-poppins">
       <Heading title={"Research"} />
-      <div className="w-[80%]">
+      <div className="w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
         The research section serves as a comprehensive repository showcasing my
         academic endeavors and contributions to the realm of knowledge. It
         encapsulates a wealth of information encompassing research publications,
@@ -18,9 +18,14 @@ const Research = () => {
         academic identity.
       </div>
       <Subheading title="Research Publications" />
-      <Table data={researchTableData} />
+      <div className="md:hidden">
+        <Table data={researchTableData} countPerRow={3} />
+      </div>
+      <div className="hidden md:block">
+        <Table data={researchTableData} countPerRow={5} />
+      </div>
       <Subheading title="Profile Links" />
-      <ul className="profile-links">
+      <ul className="profile-links text-xs md:text-sm lg:text-base">
         <li>Web of Science ResearcherID: R-7775-2019</li>
         <li>
           Orchid id:{" "}
@@ -48,14 +53,14 @@ const Research = () => {
         </li>
       </ul>
       <Subheading title="Consultancy" />
-      <ul className="consultancy">
+      <ul className="consultancy text-xs md:text-sm lg:text-base">
         <li>
           Fog Server Setup for FusionSpan India Pvt. Ltd., IT Park, Nagpur from
           15th June 2018 to 14th December 2020, for Rs. 5,75,000
         </li>
       </ul>
       <Subheading title="Grant Received" />
-      <ul className="grants">
+      <ul className="grants text-xs md:text-sm lg:text-base">
         <li>
           Received a SEED Grant (RGEMS) of Rs.3,50,000 /- under the
           Multidisciplinary / Transdisciplinary Scheme - Research at Vellore
@@ -63,7 +68,7 @@ const Research = () => {
         </li>
       </ul>
       <Subheading title="Publication Details" />
-      <div className="publication-details w-full">
+      <div className="publication-details w-full text-xs md:text-sm lg:text-base">
         <ResearchPublicationList />
       </div>
     </div>

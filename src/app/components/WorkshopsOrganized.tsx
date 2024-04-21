@@ -3,7 +3,7 @@ import React from "react";
 const WorkshopsOrganized = () => {
   return (
     <>
-      <ul className="publication-details w-[80%]">
+      <ul className="publication-details w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
         <li>
           Organized Faculty Development Program on ‘Recent Trends in Artificial
           Intelligence and Machine Learning’ during 12th to 14th September 2023

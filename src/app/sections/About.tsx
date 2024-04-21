@@ -5,11 +5,19 @@ import { experienceData } from "../data/experience";
 import ExperienceBox from "../components/ExperienceBox";
 import { qualificationData } from "../data/qualification";
 import QualificationBox from "../components/QualificationBox";
+import Image from "next/image";
 const About = () => {
   return (
     <div className="w-full h-full font-poppins">
       <Heading title={"About"} />
-      <div className="description w-[80%]">
+      <div className="description w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
+        <Image
+          src="/avatar.png"
+          alt="Ganesh Khekare"
+          width={300}
+          height={300}
+          className="w-36 md:mr-4 mb-4 md:float-left mx-auto"
+        />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quis
           mollitia ipsa perspiciatis itaque nisi ducimus commodi? Dolore earum
@@ -50,25 +58,25 @@ const About = () => {
       <div className="w-full mt-8">
         <Subheading title={"Domain Knowledge"} />
         <div className="w-full flex flex-wrap justify-between">
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear flex items-center justify-center">
             Networking
           </span>
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
             Artificial Intelligence
           </span>
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
             Machine Learning
           </span>
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
             Data Science
           </span>
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
             Internet of Things
           </span>
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
             VANET
           </span>
-          <span className="w-[48%] bg-background text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
+          <span className="w-[48%] bg-background text-sm md:text-base lg:text-lg px-4 py-2 rounded-lg text-center font-medium mb-2 cursor-pointer hover:scale-95 transition-all duration-100 ease-linear">
             Anaconda
           </span>
         </div>

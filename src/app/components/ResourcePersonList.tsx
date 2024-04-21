@@ -3,7 +3,7 @@ import React from "react";
 const ResourcePersonList = () => {
   return (
     <>
-      <ul className="publication-details w-[80%]">
+      <ul className="publication-details w-full lg:w-[80%]  text-xs md:text-sm lg:text-base">
         <li>
           Editorial Board Member for International Journal MC Engineering Themes
           (Medicon Open Access).

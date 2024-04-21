@@ -2,7 +2,7 @@ import React from "react";
 
 const ResearchPublicationList = () => {
   return (
-    <ul className="publication-details w-[80%]">
+    <ul className="publication-details w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
       <li>
         Khekare, Ganesh, and Midhunchakkravarthy. "Machine Learning Techniques
         for the Classification and Detection of Brain Tumors in MRI Images."

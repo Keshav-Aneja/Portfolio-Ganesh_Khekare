@@ -6,7 +6,12 @@ const SpecialistService = () => {
   return (
     <div className="w-full h-full font-poppins">
       <Heading title={"Specialist Service"} />
-      <Table data={resourcePersonData} />
+      <div className="hidden md:block">
+        <Table data={resourcePersonData} />
+      </div>
+      <div className="md:hidden">
+        <Table data={resourcePersonData} countPerRow={4} />
+      </div>
       <div className="resource-person-details w-full">
         <ResourcePersonList />
       </div>

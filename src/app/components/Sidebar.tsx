@@ -20,8 +20,8 @@ const Sidebar = ({
   setTabIndex: React.Dispatch<React.SetStateAction<number>>;
 }) => {
   return (
-    <div className="w-full bg-white min-h-[80vh] h-full rounded-xl relative">
-      <div className="w-[50%] aspect-square rounded-xl overflow-hidden absolute left-1/2 -translate-x-1/2 -top-12 bg-white p-2 shadow-md">
+    <div className="w-full bg-white lg:min-h-[80vh] h-full rounded-xl relative hidden lg:block">
+      <div className="w-32 lg:w-[50%] aspect-square rounded-xl overflow-hidden absolute left-1/2 -translate-x-1/2 -top-12 bg-white p-2 shadow-md">
         <Image
           src="/avatar.png"
           alt="Ganesh Khekare"
@@ -30,20 +30,21 @@ const Sidebar = ({
           className="w-full h-full"
         />
       </div>
-      <div className="blank w-[40%] aspect-square"></div>
+      <div className="hidden lg:block blank w-[40%] aspect-square"></div>
+      <div className=" blank w-[100%] h-24"></div>
       <div className="sidebar-content w-full text-center flex flex-col gap-4">
         <h1 className="text-2xl font-roboto font-bold">Dr. Ganesh Khekare</h1>
         <div className="socials w-full flex justify-center gap-2">
-          <div className="p-3 bg-background rounded-lg hover:bg-primary w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
+          <div className="p-1 lg:p-3 bg-background rounded-lg hover:bg-primary  w-10 lg:w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
             <FaFacebookF className="group-hover:text-white w-full h-full" />
           </div>
-          <div className="p-3 bg-background rounded-lg hover:bg-primary w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
+          <div className="p-1 lg:p-3 bg-background rounded-lg hover:bg-primary  w-10 lg:w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
             <FaTwitter className="group-hover:text-white w-full h-full" />
           </div>
-          <div className="p-3 bg-background rounded-lg hover:bg-primary w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
+          <div className="p-1 lg:p-3 bg-background rounded-lg hover:bg-primary w-10 lg:w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
             <FaLinkedinIn className="group-hover:text-white w-full h-full" />
           </div>
-          <div className="p-3 bg-background rounded-lg hover:bg-primary w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
+          <div className="p-1 lg:p-3 bg-background rounded-lg hover:bg-primary  w-10 lg:w-[12%] aspect-square group transition-all duration-100 ease-linear cursor-pointer">
             <FaInstagram className="group-hover:text-white w-full h-full" />
           </div>
         </div>

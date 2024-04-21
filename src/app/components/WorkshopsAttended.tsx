@@ -3,7 +3,7 @@ import React from "react";
 const WorkshopsAttended = () => {
   return (
     <>
-      <ul className="publication-details w-[80%]">
+      <ul className="publication-details w-full lg:w-[80%] text-xs md:text-sm lg:text-base">
         <li>
           Attended three days FDP on ‘Recent Trends in Artificial Intelligence
           and Machine Learning" organized by Academic Staff College in

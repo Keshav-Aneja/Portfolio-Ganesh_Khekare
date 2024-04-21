@@ -12,6 +12,7 @@ import Projects from "./sections/Projects";
 import Awards from "./sections/Awards";
 import GalleryPage from "./sections/GalleryPage";
 import SpecialistService from "./sections/SpecialistServices";
+import SidebarMobile from "./components/SidebarMobile";
 export default function Home() {
   const [tabIndex, setTabIndex] = useState(0);
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <BaseWrapper>
           <SidebarWrapper>
             <Sidebar tabIndex={tabIndex} setTabIndex={setTabIndex} />
+            <SidebarMobile tabIndex={tabIndex} setTabIndex={setTabIndex} />
           </SidebarWrapper>
           <MainWrapper>
             {tabIndex === 0 && <About />}

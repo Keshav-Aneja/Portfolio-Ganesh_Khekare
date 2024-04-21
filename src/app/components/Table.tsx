@@ -19,7 +19,7 @@ const Table = ({ data, countPerRow = 5 }: Props) => {
 
         return (
           <section
-            className="flex flex-col w-full mb-8  rounded-lg overflow-hidden"
+            className="flex flex-col w-full mb-4 md:mb-8  rounded-lg overflow-hidden text-xs md:text-sm lg:text-base"
             key={global_index}
           >
             <div className="--headers w-full flex flex-wrap">
