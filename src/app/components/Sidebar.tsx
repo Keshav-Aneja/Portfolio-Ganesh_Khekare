@@ -23,11 +23,11 @@ const Sidebar = ({
     <div className="w-full bg-white lg:min-h-[80vh] h-full rounded-xl relative hidden lg:block">
       <div className="w-32 lg:w-[50%] aspect-square rounded-xl overflow-hidden absolute left-1/2 -translate-x-1/2 -top-12 bg-white p-2 shadow-md">
         <Image
-          src="/avatar.png"
+          src="/ganesh-khekare.png"
           alt="Ganesh Khekare"
           width={300}
           height={300}
-          className="w-full h-full"
+          className="w-full h-full rounded-lg"
         />
       </div>
       <div className="hidden lg:block blank w-[40%] aspect-square"></div>
